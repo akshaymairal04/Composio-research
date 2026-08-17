@@ -1,0 +1,2289 @@
+[
+  {
+    "id": 1,
+    "app": "Salesforce",
+    "category": "CRM & Sales",
+    "does": "CRM / sales cloud",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "auth_raw": "OAuth2",
+    "credential_access": "self-serve",
+    "api_type": "REST + GraphQL; broad",
+    "mcp_available": false,
+    "mcp_raw": "No",
+    "buildability": "Buildable",
+    "blocker": "OAuth app setup + org permissions",
+    "evidence_urls": [
+      "https://developer.salesforce.com/docs/platform/connect-rest-api/guide/quickstart.html"
+    ],
+    "confidence": "high",
+    "verification_method": "manual sample",
+    "evidence_file": "001_salesforce_evidence.json"
+  },
+  {
+    "id": 2,
+    "app": "HubSpot",
+    "category": "CRM & Sales",
+    "does": "CRM, marketing & sales",
+    "auth_methods": [
+      "OAuth2",
+      "private access token"
+    ],
+    "auth_raw": "OAuth2; private access token",
+    "credential_access": "self-serve",
+    "api_type": "REST; broad + webhooks",
+    "mcp_available": true,
+    "mcp_raw": "Yes",
+    "buildability": "Buildable",
+    "blocker": "Public-app OAuth scopes / review for some scopes",
+    "evidence_urls": [
+      "https://developers.hubspot.com/docs/api/working-with-oauth"
+    ],
+    "confidence": "medium",
+    "verification_method": "agent pass",
+    "evidence_file": "002_hubspot_evidence.json"
+  },
+  {
+    "id": 3,
+    "app": "Pipedrive",
+    "category": "CRM & Sales",
+    "does": "Sales CRM",
+    "auth_methods": [
+      "OAuth2",
+      "API token"
+    ],
+    "auth_raw": "OAuth2; API token",
+    "credential_access": "self-serve",
+    "api_type": "REST; broad",
+    "mcp_available": false,
+    "mcp_raw": "No",
+    "buildability": "Buildable",
+    "blocker": "Marketplace publication adds review",
+    "evidence_urls": [
+      "https://developers.pipedrive.com/docs/api/v1/Oauth"
+    ],
+    "confidence": "high",
+    "verification_method": "manual sample",
+    "evidence_file": "003_pipedrive_evidence.json"
+  },
+  {
+    "id": 4,
+    "app": "Attio",
+    "category": "CRM & Sales",
+    "does": "Modern CRM",
+    "auth_methods": [
+      "OAuth2",
+      "API key"
+    ],
+    "auth_raw": "OAuth2; API key",
+    "credential_access": "self-serve",
+    "api_type": "REST; broad",
+    "mcp_available": false,
+    "mcp_raw": "No",
+    "buildability": "Buildable",
+    "blocker": "Workspace scopes",
+    "evidence_urls": [
+      "https://docs.attio.com/rest-api/guides/authentication"
+    ],
+    "confidence": "high",
+    "verification_method": "manual sample",
+    "evidence_file": "004_attio_evidence.json"
+  },
+  {
+    "id": 5,
+    "app": "Twenty",
+    "category": "CRM & Sales",
+    "does": "Open-source CRM",
+    "auth_methods": [
+      "API key",
+      "OAuth2"
+    ],
+    "auth_raw": "API key; OAuth2",
+    "credential_access": "self-serve",
+    "api_type": "REST + GraphQL; broad",
+    "mcp_available": false,
+    "mcp_raw": "No",
+    "buildability": "Buildable",
+    "blocker": "Cloud or self-hosted auth model",
+    "evidence_urls": [
+      "https://docs.twenty.com/developers/extend/api"
+    ],
+    "confidence": "high",
+    "verification_method": "manual sample",
+    "evidence_file": "005_twenty_evidence.json"
+  },
+  {
+    "id": 6,
+    "app": "Podio",
+    "category": "CRM & Sales",
+    "does": "Work management CRM",
+    "auth_methods": [
+      "OAuth2",
+      "app token"
+    ],
+    "auth_raw": "OAuth2; app token",
+    "credential_access": "self-serve",
+    "api_type": "REST; broad",
+    "mcp_available": false,
+    "mcp_raw": "No",
+    "buildability": "Buildable",
+    "blocker": "Register an app",
+    "evidence_urls": [
+      "https://developers.podio.com/authentication"
+    ],
+    "confidence": "high",
+    "verification_method": "manual sample",
+    "evidence_file": "006_podio_evidence.json"
+  },
+  {
+    "id": 7,
+    "app": "Zoho CRM",
+    "category": "CRM & Sales",
+    "does": "CRM",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "auth_raw": "OAuth2",
+    "credential_access": "self-serve",
+    "api_type": "REST; broad",
+    "mcp_available": false,
+    "mcp_raw": "No",
+    "buildability": "Buildable",
+    "blocker": "Zoho API console + scopes",
+    "evidence_urls": [
+      "https://www.zoho.com/crm/developer/docs/api/v8/auth-request.html"
+    ],
+    "confidence": "high",
+    "verification_method": "manual sample",
+    "evidence_file": "007_zoho_crm_evidence.json"
+  },
+  {
+    "id": 8,
+    "app": "Close",
+    "category": "CRM & Sales",
+    "does": "Sales CRM",
+    "auth_methods": [
+      "API key (Basic)",
+      "OAuth2"
+    ],
+    "auth_raw": "API key (Basic); OAuth2",
+    "credential_access": "self-serve",
+    "api_type": "REST; broad",
+    "mcp_available": false,
+    "mcp_raw": "No",
+    "buildability": "Buildable",
+    "blocker": "OAuth apps are private until made public",
+    "evidence_urls": [
+      "https://developer.close.com/api/overview"
+    ],
+    "confidence": "high",
+    "verification_method": "manual sample",
+    "evidence_file": "008_close_evidence.json"
+  },
+  {
+    "id": 9,
+    "app": "Copper",
+    "category": "CRM & Sales",
+    "does": "CRM",
+    "auth_methods": [
+      "API key",
+      "OAuth2"
+    ],
+    "auth_raw": "API key; OAuth2",
+    "credential_access": "hybrid",
+    "api_type": "REST; broad",
+    "mcp_available": false,
+    "mcp_raw": "No",
+    "buildability": "Buildable with outreach",
+    "blocker": "OAuth registration requires contacting Copper",
+    "evidence_urls": [
+      "https://developer.copper.com/introduction/authentication.html"
+    ],
+    "confidence": "high",
+    "verification_method": "manual sample",
+    "evidence_file": "009_copper_evidence.json"
+  },
+  {
+    "id": 10,
+    "app": "DealCloud",
+    "category": "CRM & Sales",
+    "does": "Investment / deal CRM",
+    "auth_methods": [
+      "OAuth2",
+      "API credentials"
+    ],
+    "auth_raw": "OAuth2 / API credentials",
+    "credential_access": "gated",
+    "api_type": "REST; partner-oriented",
+    "mcp_available": false,
+    "mcp_raw": "No",
+    "buildability": "Outreach required",
+    "blocker": "Customer / partner access",
+    "evidence_urls": [
+      "https://api.docs.dealcloud.com/"
+    ],
+    "confidence": "medium",
+    "verification_method": "agent pass",
+    "evidence_file": "010_dealcloud_evidence.json"
+  },
+  {
+    "id": 11,
+    "app": "Zendesk",
+    "category": "Support & Helpdesk",
+    "does": "Customer support",
+    "auth_methods": [
+      "OAuth2",
+      "API token"
+    ],
+    "auth_raw": "OAuth2; API token",
+    "credential_access": "hybrid",
+    "api_type": "REST; very broad",
+    "mcp_available": false,
+    "mcp_raw": "No",
+    "buildability": "Buildable",
+    "blocker": "Admin setup; global OAuth for distributed apps",
+    "evidence_urls": [
+      "https://developer.zendesk.com/api-reference/introduction/security-and-auth/"
+    ],
+    "confidence": "high",
+    "verification_method": "manual sample",
+    "evidence_file": "011_zendesk_evidence.json"
+  },
+  {
+    "id": 12,
+    "app": "Intercom",
+    "category": "Support & Helpdesk",
+    "does": "Customer communications/support",
+    "auth_methods": [
+      "OAuth2",
+      "access token"
+    ],
+    "auth_raw": "OAuth2; access token",
+    "credential_access": "hybrid",
+    "api_type": "REST; broad",
+    "mcp_available": false,
+    "mcp_raw": "No",
+    "buildability": "Buildable",
+    "blocker": "Public OAuth vs private workspace token",
+    "evidence_urls": [
+      "https://developers.intercom.com/docs/build-an-integration/learn-more/authentication"
+    ],
+    "confidence": "high",
+    "verification_method": "manual sample",
+    "evidence_file": "012_intercom_evidence.json"
+  },
+  {
+    "id": 13,
+    "app": "Freshdesk",
+    "category": "Support & Helpdesk",
+    "does": "Helpdesk",
+    "auth_methods": [
+      "API key",
+      "OAuth2"
+    ],
+    "auth_raw": "API key; OAuth2",
+    "credential_access": "self-serve",
+    "api_type": "REST; broad",
+    "mcp_available": false,
+    "mcp_raw": "No",
+    "buildability": "Buildable",
+    "blocker": "Account/admin credentials",
+    "evidence_urls": [
+      "https://developers.freshdesk.com/api/"
+    ],
+    "confidence": "medium",
+    "verification_method": "agent pass",
+    "evidence_file": "013_freshdesk_evidence.json"
+  },
+  {
+    "id": 14,
+    "app": "Front",
+    "category": "Support & Helpdesk",
+    "does": "Shared inbox/support",
+    "auth_methods": [
+      "API token",
+      "OAuth2"
+    ],
+    "auth_raw": "API token; OAuth2",
+    "credential_access": "self-serve",
+    "api_type": "REST; broad",
+    "mcp_available": false,
+    "mcp_raw": "No",
+    "buildability": "Buildable",
+    "blocker": "OAuth app registration",
+    "evidence_urls": [
+      "https://dev.frontapp.com/reference/introduction"
+    ],
+    "confidence": "medium",
+    "verification_method": "agent pass",
+    "evidence_file": "014_front_evidence.json"
+  },
+  {
+    "id": 15,
+    "app": "Pylon",
+    "category": "Support & Helpdesk",
+    "does": "Customer support",
+    "auth_methods": [
+      "Bearer API token"
+    ],
+    "auth_raw": "Bearer API token",
+    "credential_access": "self-serve",
+    "api_type": "REST; moderate",
+    "mcp_available": false,
+    "mcp_raw": "No",
+    "buildability": "Buildable",
+    "blocker": "Token generated in dashboard",
+    "evidence_urls": [
+      "https://docs.usepylon.com/pylon-docs/developer/api/authentication"
+    ],
+    "confidence": "medium",
+    "verification_method": "agent pass",
+    "evidence_file": "015_pylon_evidence.json"
+  },
+  {
+    "id": 16,
+    "app": "LiveAgent",
+    "category": "Support & Helpdesk",
+    "does": "Helpdesk",
+    "auth_methods": [
+      "API key",
+      "token"
+    ],
+    "auth_raw": "API key/token",
+    "credential_access": "self-serve",
+    "api_type": "REST; moderate",
+    "mcp_available": false,
+    "mcp_raw": "No",
+    "buildability": "Buildable",
+    "blocker": "Account access",
+    "evidence_urls": [
+      "https://support.liveagent.com/docs/api"
+    ],
+    "confidence": "medium",
+    "verification_method": "agent pass",
+    "evidence_file": "016_liveagent_evidence.json"
+  },
+  {
+    "id": 17,
+    "app": "Plain",
+    "category": "Support & Helpdesk",
+    "does": "Support platform",
+    "auth_methods": [
+      "API key",
+      "OAuth2"
+    ],
+    "auth_raw": "API key; OAuth2",
+    "credential_access": "self-serve",
+    "api_type": "REST; moderate",
+    "mcp_available": false,
+    "mcp_raw": "No",
+    "buildability": "Buildable",
+    "blocker": "API access via workspace",
+    "evidence_urls": [
+      "https://www.plain.com/docs/api"
+    ],
+    "confidence": "medium",
+    "verification_method": "agent pass",
+    "evidence_file": "017_plain_evidence.json"
+  },
+  {
+    "id": 18,
+    "app": "Help Scout",
+    "category": "Support & Helpdesk",
+    "does": "Helpdesk",
+    "auth_methods": [
+      "OAuth2",
+      "API key"
+    ],
+    "auth_raw": "OAuth2; API key",
+    "credential_access": "self-serve",
+    "api_type": "REST; broad",
+    "mcp_available": false,
+    "mcp_raw": "No",
+    "buildability": "Buildable",
+    "blocker": "OAuth app registration",
+    "evidence_urls": [
+      "https://developer.helpscout.com/authentication/"
+    ],
+    "confidence": "medium",
+    "verification_method": "agent pass",
+    "evidence_file": "018_help_scout_evidence.json"
+  },
+  {
+    "id": 19,
+    "app": "Gorgias",
+    "category": "Support & Helpdesk",
+    "does": "Helpdesk / ecommerce support",
+    "auth_methods": [
+      "API key",
+      "OAuth2"
+    ],
+    "auth_raw": "API key; OAuth2",
+    "credential_access": "self-serve",
+    "api_type": "REST; broad",
+    "mcp_available": false,
+    "mcp_raw": "No",
+    "buildability": "Buildable",
+    "blocker": "Account + API credentials",
+    "evidence_urls": [
+      "https://developers.gorgias.com/reference/authentication"
+    ],
+    "confidence": "medium",
+    "verification_method": "agent pass",
+    "evidence_file": "019_gorgias_evidence.json"
+  },
+  {
+    "id": 20,
+    "app": "Gladly",
+    "category": "Support & Helpdesk",
+    "does": "Customer service platform",
+    "auth_methods": [
+      "OAuth2",
+      "token"
+    ],
+    "auth_raw": "OAuth2 / token",
+    "credential_access": "gated",
+    "api_type": "REST; broad",
+    "mcp_available": false,
+    "mcp_raw": "No",
+    "buildability": "Outreach required",
+    "blocker": "Enterprise/customer access",
+    "evidence_urls": [
+      "https://developer.gladly.com/"
+    ],
+    "confidence": "medium",
+    "verification_method": "agent pass",
+    "evidence_file": "020_gladly_evidence.json"
+  },
+  {
+    "id": 21,
+    "app": "Slack",
+    "category": "Communications",
+    "does": "Team messaging",
+    "auth_methods": [
+      "OAuth2",
+      "bot",
+      "user tokens"
+    ],
+    "auth_raw": "OAuth2; bot/user tokens",
+    "credential_access": "self-serve",
+    "api_type": "REST + Events; very broad",
+    "mcp_available": true,
+    "mcp_raw": "Yes",
+    "buildability": "Buildable",
+    "blocker": "Marketplace/internal app constraints for MCP",
+    "evidence_urls": [
+      "https://docs.slack.dev/authentication/installing-with-oauth/"
+    ],
+    "confidence": "high",
+    "verification_method": "manual sample",
+    "evidence_file": "021_slack_evidence.json"
+  },
+  {
+    "id": 22,
+    "app": "Twilio",
+    "category": "Communications",
+    "does": "CPaaS messaging/voice",
+    "auth_methods": [
+      "API key",
+      "secret",
+      "OAuth2"
+    ],
+    "auth_raw": "API key/secret; OAuth2",
+    "credential_access": "self-serve",
+    "api_type": "REST; very broad",
+    "mcp_available": false,
+    "mcp_raw": "No",
+    "buildability": "Buildable",
+    "blocker": "Account + product enablement",
+    "evidence_urls": [
+      "https://www.twilio.com/docs/usage/security"
+    ],
+    "confidence": "medium",
+    "verification_method": "agent pass",
+    "evidence_file": "022_twilio_evidence.json"
+  },
+  {
+    "id": 23,
+    "app": "Zoho Cliq",
+    "category": "Communications",
+    "does": "Team messaging",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "auth_raw": "OAuth2",
+    "credential_access": "self-serve",
+    "api_type": "REST; moderate",
+    "mcp_available": false,
+    "mcp_raw": "No",
+    "buildability": "Buildable",
+    "blocker": "Zoho API console",
+    "evidence_urls": [
+      "https://www.zoho.com/cliq/help/restapi/v3/introduction/"
+    ],
+    "confidence": "medium",
+    "verification_method": "agent pass",
+    "evidence_file": "023_zoho_cliq_evidence.json"
+  },
+  {
+    "id": 24,
+    "app": "Lark",
+    "category": "Communications",
+    "does": "Collaboration suite",
+    "auth_methods": [
+      "OAuth2",
+      "tenant token"
+    ],
+    "auth_raw": "OAuth2; tenant token",
+    "credential_access": "self-serve",
+    "api_type": "REST; broad",
+    "mcp_available": false,
+    "mcp_raw": "No",
+    "buildability": "Buildable",
+    "blocker": "Tenant/app approval can apply",
+    "evidence_urls": [
+      "https://open.larksuite.com/document/uAjLw4CM/ukTMukTMukTM/"
+    ],
+    "confidence": "medium",
+    "verification_method": "agent pass",
+    "evidence_file": "024_lark_evidence.json"
+  },
+  {
+    "id": 25,
+    "app": "Pumble",
+    "category": "Communications",
+    "does": "Team messaging",
+    "auth_methods": [
+      "API token",
+      "OAuth2"
+    ],
+    "auth_raw": "API token / OAuth2",
+    "credential_access": "self-serve",
+    "api_type": "REST; moderate",
+    "mcp_available": false,
+    "mcp_raw": "No",
+    "buildability": "Buildable with caveat",
+    "blocker": "API availability varies by plan",
+    "evidence_urls": [
+      "https://pumble.com/developers/"
+    ],
+    "confidence": "medium",
+    "verification_method": "agent pass",
+    "evidence_file": "025_pumble_evidence.json"
+  },
+  {
+    "id": 26,
+    "app": "Discord",
+    "category": "Communications",
+    "does": "Community messaging",
+    "auth_methods": [
+      "Bot token",
+      "OAuth2"
+    ],
+    "auth_raw": "Bot token; OAuth2",
+    "credential_access": "self-serve",
+    "api_type": "REST + Gateway; broad",
+    "mcp_available": true,
+    "mcp_raw": "Yes",
+    "buildability": "Buildable",
+    "blocker": "Bot/app permissions",
+    "evidence_urls": [
+      "https://docs.discord.com/developers/platform/oauth2-and-permissions"
+    ],
+    "confidence": "high",
+    "verification_method": "manual sample",
+    "evidence_file": "026_discord_evidence.json"
+  },
+  {
+    "id": 27,
+    "app": "Telegram",
+    "category": "Communications",
+    "does": "Messaging / bot platform",
+    "auth_methods": [
+      "Bot token"
+    ],
+    "auth_raw": "Bot token",
+    "credential_access": "self-serve",
+    "api_type": "Bot API; moderate",
+    "mcp_available": false,
+    "mcp_raw": "No",
+    "buildability": "Buildable",
+    "blocker": "BotFather token",
+    "evidence_urls": [
+      "https://core.telegram.org/bots/api"
+    ],
+    "confidence": "medium",
+    "verification_method": "agent pass",
+    "evidence_file": "027_telegram_evidence.json"
+  },
+  {
+    "id": 28,
+    "app": "WhatsApp Business",
+    "category": "Communications",
+    "does": "Business messaging",
+    "auth_methods": [
+      "OAuth2",
+      "access token"
+    ],
+    "auth_raw": "OAuth2; access token",
+    "credential_access": "hybrid",
+    "api_type": "Graph API; broad",
+    "mcp_available": false,
+    "mcp_raw": "No",
+    "buildability": "Buildable with onboarding",
+    "blocker": "Business verification / app review",
+    "evidence_urls": [
+      "https://developers.facebook.com/docs/whatsapp/cloud-api/"
+    ],
+    "confidence": "medium",
+    "verification_method": "agent pass",
+    "evidence_file": "028_whatsapp_business_evidence.json"
+  },
+  {
+    "id": 29,
+    "app": "Aircall",
+    "category": "Communications",
+    "does": "Cloud phone",
+    "auth_methods": [
+      "Basic API ID",
+      "token",
+      "OAuth2"
+    ],
+    "auth_raw": "Basic API ID/token; OAuth2",
+    "credential_access": "hybrid",
+    "api_type": "REST + webhooks; broad",
+    "mcp_available": true,
+    "mcp_raw": "Yes",
+    "buildability": "Buildable with outreach",
+    "blocker": "Marketplace OAuth requires tech-partner path",
+    "evidence_urls": [
+      "https://developer.aircall.io/tutorials/basic-authentication/"
+    ],
+    "confidence": "high",
+    "verification_method": "manual sample",
+    "evidence_file": "029_aircall_evidence.json"
+  },
+  {
+    "id": 30,
+    "app": "Vonage",
+    "category": "Communications",
+    "does": "Communications APIs",
+    "auth_methods": [
+      "API key",
+      "secret",
+      "JWT"
+    ],
+    "auth_raw": "API key/secret; JWT",
+    "credential_access": "self-serve",
+    "api_type": "REST; very broad",
+    "mcp_available": false,
+    "mcp_raw": "No",
+    "buildability": "Buildable",
+    "blocker": "Account credentials",
+    "evidence_urls": [
+      "https://developer.vonage.com/en/getting-started/concepts/authentication"
+    ],
+    "confidence": "high",
+    "verification_method": "manual sample",
+    "evidence_file": "030_vonage_evidence.json"
+  },
+  {
+    "id": 31,
+    "app": "Google Ads",
+    "category": "Marketing",
+    "does": "Advertising platform",
+    "auth_methods": [
+      "OAuth2 + developer token"
+    ],
+    "auth_raw": "OAuth2 + developer token",
+    "credential_access": "hybrid",
+    "api_type": "REST/Google Ads API; very broad",
+    "mcp_available": false,
+    "mcp_raw": "No",
+    "buildability": "Buildable with gate",
+    "blocker": "Developer token access level",
+    "evidence_urls": [
+      "https://developers.google.com/google-ads/api/rest/auth"
+    ],
+    "confidence": "high",
+    "verification_method": "manual sample",
+    "evidence_file": "031_google_ads_evidence.json"
+  },
+  {
+    "id": 32,
+    "app": "Meta Ads",
+    "category": "Marketing",
+    "does": "Advertising platform",
+    "auth_methods": [
+      "OAuth2",
+      "access token"
+    ],
+    "auth_raw": "OAuth2; access token",
+    "credential_access": "hybrid",
+    "api_type": "Graph API; very broad",
+    "mcp_available": false,
+    "mcp_raw": "No",
+    "buildability": "Buildable with review",
+    "blocker": "App review / permissions",
+    "evidence_urls": [
+      "https://developers.facebook.com/docs/marketing-api/get-started"
+    ],
+    "confidence": "medium",
+    "verification_method": "agent pass",
+    "evidence_file": "032_meta_ads_evidence.json"
+  },
+  {
+    "id": 33,
+    "app": "LinkedIn Ads",
+    "category": "Marketing",
+    "does": "B2B advertising",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "auth_raw": "OAuth2",
+    "credential_access": "gated",
+    "api_type": "REST; broad",
+    "mcp_available": false,
+    "mcp_raw": "No",
+    "buildability": "Outreach / approval",
+    "blocker": "Marketing API access requires approval",
+    "evidence_urls": [
+      "https://learn.microsoft.com/en-us/linkedin/marketing/"
+    ],
+    "confidence": "medium",
+    "verification_method": "agent pass",
+    "evidence_file": "033_linkedin_ads_evidence.json"
+  },
+  {
+    "id": 34,
+    "app": "GoHighLevel",
+    "category": "Marketing",
+    "does": "CRM + marketing automation",
+    "auth_methods": [
+      "OAuth2",
+      "API key"
+    ],
+    "auth_raw": "OAuth2; API key",
+    "credential_access": "self-serve",
+    "api_type": "REST; broad",
+    "mcp_available": false,
+    "mcp_raw": "No",
+    "buildability": "Buildable",
+    "blocker": "App/client setup",
+    "evidence_urls": [
+      "https://marketplace.gohighlevel.com/docs/"
+    ],
+    "confidence": "medium",
+    "verification_method": "agent pass",
+    "evidence_file": "034_gohighlevel_evidence.json"
+  },
+  {
+    "id": 35,
+    "app": "Mailchimp",
+    "category": "Marketing",
+    "does": "Email marketing",
+    "auth_methods": [
+      "API key",
+      "OAuth2"
+    ],
+    "auth_raw": "API key; OAuth2",
+    "credential_access": "self-serve",
+    "api_type": "REST; broad",
+    "mcp_available": false,
+    "mcp_raw": "No",
+    "buildability": "Buildable",
+    "blocker": "Manager role can create keys",
+    "evidence_urls": [
+      "https://mailchimp.com/developer/marketing/guides/quick-start/"
+    ],
+    "confidence": "high",
+    "verification_method": "manual sample",
+    "evidence_file": "035_mailchimp_evidence.json"
+  },
+  {
+    "id": 36,
+    "app": "Klaviyo",
+    "category": "Marketing",
+    "does": "Marketing automation",
+    "auth_methods": [
+      "API key",
+      "OAuth2"
+    ],
+    "auth_raw": "API key; OAuth2",
+    "credential_access": "self-serve",
+    "api_type": "REST; broad",
+    "mcp_available": false,
+    "mcp_raw": "No",
+    "buildability": "Buildable",
+    "blocker": "Private/public API credential model",
+    "evidence_urls": [
+      "https://developers.klaviyo.com/en/docs/authenticate_"
+    ],
+    "confidence": "medium",
+    "verification_method": "agent pass",
+    "evidence_file": "036_klaviyo_evidence.json"
+  },
+  {
+    "id": 37,
+    "app": "systeme.io",
+    "category": "Marketing",
+    "does": "Funnel / marketing automation",
+    "auth_methods": [
+      "API key"
+    ],
+    "auth_raw": "API key",
+    "credential_access": "self-serve",
+    "api_type": "REST; moderate",
+    "mcp_available": false,
+    "mcp_raw": "No",
+    "buildability": "Buildable",
+    "blocker": "Account/API access",
+    "evidence_urls": [
+      "https://developer.systeme.io/"
+    ],
+    "confidence": "medium",
+    "verification_method": "agent pass",
+    "evidence_file": "037_systeme.io_evidence.json"
+  },
+  {
+    "id": 38,
+    "app": "Pinterest",
+    "category": "Marketing",
+    "does": "Visual discovery/ads",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "auth_raw": "OAuth2",
+    "credential_access": "hybrid",
+    "api_type": "REST; broad",
+    "mcp_available": false,
+    "mcp_raw": "No",
+    "buildability": "Buildable with review",
+    "blocker": "App/permissions review for production use",
+    "evidence_urls": [
+      "https://developers.pinterest.com/docs/getting-started/authentication/"
+    ],
+    "confidence": "medium",
+    "verification_method": "agent pass",
+    "evidence_file": "038_pinterest_evidence.json"
+  },
+  {
+    "id": 39,
+    "app": "Threads",
+    "category": "Marketing",
+    "does": "Social publishing",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "auth_raw": "OAuth2",
+    "credential_access": "self-serve",
+    "api_type": "Graph API; moderate",
+    "mcp_available": false,
+    "mcp_raw": "No",
+    "buildability": "Buildable",
+    "blocker": "Meta developer app",
+    "evidence_urls": [
+      "https://developers.facebook.com/docs/threads/"
+    ],
+    "confidence": "medium",
+    "verification_method": "agent pass",
+    "evidence_file": "039_threads_evidence.json"
+  },
+  {
+    "id": 40,
+    "app": "SendGrid",
+    "category": "Marketing",
+    "does": "Transactional email",
+    "auth_methods": [
+      "API key",
+      "OAuth2"
+    ],
+    "auth_raw": "API key; OAuth2",
+    "credential_access": "self-serve",
+    "api_type": "REST; broad",
+    "mcp_available": false,
+    "mcp_raw": "No",
+    "buildability": "Buildable",
+    "blocker": "Account/API key",
+    "evidence_urls": [
+      "https://www.twilio.com/docs/sendgrid/api-reference/how-to-use-the-sendgrid-v3-api"
+    ],
+    "confidence": "medium",
+    "verification_method": "agent pass",
+    "evidence_file": "040_sendgrid_evidence.json"
+  },
+  {
+    "id": 41,
+    "app": "Shopify",
+    "category": "Ecommerce",
+    "does": "Commerce platform",
+    "auth_methods": [
+      "OAuth2",
+      "access token"
+    ],
+    "auth_raw": "OAuth2; access token",
+    "credential_access": "self-serve",
+    "api_type": "REST + GraphQL Admin; very broad",
+    "mcp_available": true,
+    "mcp_raw": "Yes",
+    "buildability": "Buildable",
+    "blocker": "App type / distribution review",
+    "evidence_urls": [
+      "https://shopify.dev/docs/api/usage/authentication"
+    ],
+    "confidence": "medium",
+    "verification_method": "agent pass",
+    "evidence_file": "041_shopify_evidence.json"
+  },
+  {
+    "id": 42,
+    "app": "WooCommerce",
+    "category": "Ecommerce",
+    "does": "Open-source ecommerce",
+    "auth_methods": [
+      "API key",
+      "secret",
+      "OAuth1"
+    ],
+    "auth_raw": "API key/secret; OAuth1",
+    "credential_access": "self-serve",
+    "api_type": "REST; broad",
+    "mcp_available": false,
+    "mcp_raw": "No",
+    "buildability": "Buildable",
+    "blocker": "Store credentials",
+    "evidence_urls": [
+      "https://woocommerce.com/document/woocommerce-rest-api/"
+    ],
+    "confidence": "medium",
+    "verification_method": "agent pass",
+    "evidence_file": "042_woocommerce_evidence.json"
+  },
+  {
+    "id": 43,
+    "app": "BigCommerce",
+    "category": "Ecommerce",
+    "does": "Commerce platform",
+    "auth_methods": [
+      "OAuth2",
+      "access token"
+    ],
+    "auth_raw": "OAuth2; access token",
+    "credential_access": "self-serve",
+    "api_type": "REST + GraphQL; broad",
+    "mcp_available": false,
+    "mcp_raw": "No",
+    "buildability": "Buildable",
+    "blocker": "App registration",
+    "evidence_urls": [
+      "https://developer.bigcommerce.com/api-docs/getting-started/api-accounts"
+    ],
+    "confidence": "medium",
+    "verification_method": "agent pass",
+    "evidence_file": "043_bigcommerce_evidence.json"
+  },
+  {
+    "id": 44,
+    "app": "Salesforce Commerce Cloud",
+    "category": "Ecommerce",
+    "does": "Enterprise commerce",
+    "auth_methods": [
+      "OAuth2",
+      "client credentials"
+    ],
+    "auth_raw": "OAuth2; client credentials",
+    "credential_access": "gated",
+    "api_type": "REST/SCAPI; broad",
+    "mcp_available": false,
+    "mcp_raw": "No",
+    "buildability": "Outreach / contract",
+    "blocker": "Enterprise account",
+    "evidence_urls": [
+      "https://developer.salesforce.com/docs/commerce"
+    ],
+    "confidence": "medium",
+    "verification_method": "agent pass",
+    "evidence_file": "044_salesforce_commerce_cloud_evidence.json"
+  },
+  {
+    "id": 45,
+    "app": "Magento / Adobe Commerce",
+    "category": "Ecommerce",
+    "does": "Commerce platform",
+    "auth_methods": [
+      "OAuth1",
+      "integration tokens"
+    ],
+    "auth_raw": "OAuth1; integration tokens",
+    "credential_access": "self-serve",
+    "api_type": "REST + GraphQL; broad",
+    "mcp_available": false,
+    "mcp_raw": "No",
+    "buildability": "Buildable",
+    "blocker": "Admin/integration access",
+    "evidence_urls": [
+      "https://developer.adobe.com/commerce/webapi/get-started/authentication/"
+    ],
+    "confidence": "medium",
+    "verification_method": "agent pass",
+    "evidence_file": "045_magento___adobe_commerce_evidence.json"
+  },
+  {
+    "id": 46,
+    "app": "Squarespace",
+    "category": "Ecommerce",
+    "does": "Website/ecommerce",
+    "auth_methods": [
+      "OAuth2",
+      "API key"
+    ],
+    "auth_raw": "OAuth2; API key",
+    "credential_access": "self-serve",
+    "api_type": "REST; moderate",
+    "mcp_available": false,
+    "mcp_raw": "No",
+    "buildability": "Buildable",
+    "blocker": "Developer app",
+    "evidence_urls": [
+      "https://developers.squarespace.com/"
+    ],
+    "confidence": "medium",
+    "verification_method": "agent pass",
+    "evidence_file": "046_squarespace_evidence.json"
+  },
+  {
+    "id": 47,
+    "app": "Ecwid",
+    "category": "Ecommerce",
+    "does": "Ecommerce",
+    "auth_methods": [
+      "API token",
+      "OAuth2"
+    ],
+    "auth_raw": "API token; OAuth2",
+    "credential_access": "self-serve",
+    "api_type": "REST; broad",
+    "mcp_available": false,
+    "mcp_raw": "No",
+    "buildability": "Buildable",
+    "blocker": "App/token setup",
+    "evidence_urls": [
+      "https://api-docs.ecwid.com/"
+    ],
+    "confidence": "medium",
+    "verification_method": "agent pass",
+    "evidence_file": "047_ecwid_evidence.json"
+  },
+  {
+    "id": 48,
+    "app": "Gumroad",
+    "category": "Ecommerce",
+    "does": "Creator commerce",
+    "auth_methods": [
+      "OAuth2",
+      "access token"
+    ],
+    "auth_raw": "OAuth2; access token",
+    "credential_access": "self-serve",
+    "api_type": "REST; moderate",
+    "mcp_available": false,
+    "mcp_raw": "No",
+    "buildability": "Buildable",
+    "blocker": "OAuth app",
+    "evidence_urls": [
+      "https://gumroad.com/api"
+    ],
+    "confidence": "medium",
+    "verification_method": "agent pass",
+    "evidence_file": "048_gumroad_evidence.json"
+  },
+  {
+    "id": 49,
+    "app": "Amazon Selling Partner",
+    "category": "Ecommerce",
+    "does": "Marketplace seller API",
+    "auth_methods": [
+      "OAuth2",
+      "AWS SigV4"
+    ],
+    "auth_raw": "OAuth2; AWS SigV4",
+    "credential_access": "hybrid",
+    "api_type": "REST; very broad",
+    "mcp_available": false,
+    "mcp_raw": "No",
+    "buildability": "Buildable with gate",
+    "blocker": "Developer profile / app authorization / roles",
+    "evidence_urls": [
+      "https://developer-docs.amazon.com/sp-api/"
+    ],
+    "confidence": "medium",
+    "verification_method": "agent pass",
+    "evidence_file": "049_amazon_selling_partner_evidence.json"
+  },
+  {
+    "id": 50,
+    "app": "fanbasis",
+    "category": "Ecommerce",
+    "does": "Creator commerce",
+    "auth_methods": [
+      "API key",
+      "OAuth2"
+    ],
+    "auth_raw": "API key / OAuth2",
+    "credential_access": "gated",
+    "api_type": "REST; limited/partner-oriented",
+    "mcp_available": false,
+    "mcp_raw": "No",
+    "buildability": "Outreach required",
+    "blocker": "API access not clearly self-serve",
+    "evidence_urls": [
+      "https://fanbasis.com/"
+    ],
+    "confidence": "medium",
+    "verification_method": "agent pass",
+    "evidence_file": "050_fanbasis_evidence.json"
+  },
+  {
+    "id": 51,
+    "app": "DataForSEO",
+    "category": "Data / SEO",
+    "does": "SEO data APIs",
+    "auth_methods": [
+      "API login",
+      "Basic"
+    ],
+    "auth_raw": "API login / Basic",
+    "credential_access": "self-serve",
+    "api_type": "REST; very broad",
+    "mcp_available": false,
+    "mcp_raw": "No",
+    "buildability": "Buildable",
+    "blocker": "Account credits",
+    "evidence_urls": [
+      "https://docs.dataforseo.com/"
+    ],
+    "confidence": "medium",
+    "verification_method": "agent pass",
+    "evidence_file": "051_dataforseo_evidence.json"
+  },
+  {
+    "id": 52,
+    "app": "SE Ranking",
+    "category": "Data / SEO",
+    "does": "SEO platform",
+    "auth_methods": [
+      "API key"
+    ],
+    "auth_raw": "API key",
+    "credential_access": "self-serve",
+    "api_type": "REST; moderate",
+    "mcp_available": false,
+    "mcp_raw": "No",
+    "buildability": "Buildable",
+    "blocker": "Plan/API access",
+    "evidence_urls": [
+      "https://seranking.com/api/"
+    ],
+    "confidence": "medium",
+    "verification_method": "agent pass",
+    "evidence_file": "052_se_ranking_evidence.json"
+  },
+  {
+    "id": 53,
+    "app": "Ahrefs",
+    "category": "Data / SEO",
+    "does": "SEO intelligence",
+    "auth_methods": [
+      "API key"
+    ],
+    "auth_raw": "API key",
+    "credential_access": "hybrid",
+    "api_type": "REST; broad",
+    "mcp_available": false,
+    "mcp_raw": "No",
+    "buildability": "Buildable with paid plan",
+    "blocker": "API access tied to subscription/usage",
+    "evidence_urls": [
+      "https://ahrefs.com/api"
+    ],
+    "confidence": "medium",
+    "verification_method": "agent pass",
+    "evidence_file": "053_ahrefs_evidence.json"
+  },
+  {
+    "id": 54,
+    "app": "MrScraper",
+    "category": "Data / SEO",
+    "does": "Web scraping",
+    "auth_methods": [
+      "API key"
+    ],
+    "auth_raw": "API key",
+    "credential_access": "self-serve",
+    "api_type": "REST; moderate",
+    "mcp_available": false,
+    "mcp_raw": "No",
+    "buildability": "Buildable",
+    "blocker": "Account token",
+    "evidence_urls": [
+      "https://docs.mrscraper.com/"
+    ],
+    "confidence": "medium",
+    "verification_method": "agent pass",
+    "evidence_file": "054_mrscraper_evidence.json"
+  },
+  {
+    "id": 55,
+    "app": "Apify",
+    "category": "Data / SEO",
+    "does": "Web scraping / actors",
+    "auth_methods": [
+      "API token"
+    ],
+    "auth_raw": "API token",
+    "credential_access": "self-serve",
+    "api_type": "REST; broad",
+    "mcp_available": true,
+    "mcp_raw": "Yes",
+    "buildability": "Buildable",
+    "blocker": "Token generated in console",
+    "evidence_urls": [
+      "https://docs.apify.com/api/v2"
+    ],
+    "confidence": "medium",
+    "verification_method": "agent pass",
+    "evidence_file": "055_apify_evidence.json"
+  },
+  {
+    "id": 56,
+    "app": "Firecrawl",
+    "category": "Data / SEO",
+    "does": "Web scraping / crawling",
+    "auth_methods": [
+      "API key"
+    ],
+    "auth_raw": "API key",
+    "credential_access": "self-serve",
+    "api_type": "REST; moderate",
+    "mcp_available": true,
+    "mcp_raw": "Yes",
+    "buildability": "Buildable",
+    "blocker": "API key",
+    "evidence_urls": [
+      "https://docs.firecrawl.dev/"
+    ],
+    "confidence": "medium",
+    "verification_method": "agent pass",
+    "evidence_file": "056_firecrawl_evidence.json"
+  },
+  {
+    "id": 57,
+    "app": "Bright Data",
+    "category": "Data / SEO",
+    "does": "Proxy / web data",
+    "auth_methods": [
+      "API key",
+      "username",
+      "password"
+    ],
+    "auth_raw": "API key; username/password",
+    "credential_access": "hybrid",
+    "api_type": "REST + proxy APIs; broad",
+    "mcp_available": false,
+    "mcp_raw": "No",
+    "buildability": "Buildable with paid account",
+    "blocker": "Account / plan / compliance",
+    "evidence_urls": [
+      "https://docs.brightdata.com/"
+    ],
+    "confidence": "medium",
+    "verification_method": "agent pass",
+    "evidence_file": "057_bright_data_evidence.json"
+  },
+  {
+    "id": 58,
+    "app": "Sherlock",
+    "category": "Data / SEO",
+    "does": "Username OSINT CLI",
+    "auth_methods": [
+      "None",
+      "local CLI"
+    ],
+    "auth_raw": "None / local CLI",
+    "credential_access": "self-serve",
+    "api_type": "CLI; no hosted API",
+    "mcp_available": false,
+    "mcp_raw": "No",
+    "buildability": "Buildable as tool",
+    "blocker": "No stable hosted API",
+    "evidence_urls": [
+      "https://github.com/sherlock-project/sherlock"
+    ],
+    "confidence": "medium",
+    "verification_method": "agent pass",
+    "evidence_file": "058_sherlock_evidence.json"
+  },
+  {
+    "id": 59,
+    "app": "Waterfall.io",
+    "category": "Data / SEO",
+    "does": "Company intelligence",
+    "auth_methods": [
+      "API key"
+    ],
+    "auth_raw": "API key",
+    "credential_access": "gated",
+    "api_type": "REST; partner-oriented",
+    "mcp_available": false,
+    "mcp_raw": "No",
+    "buildability": "Outreach required",
+    "blocker": "Commercial access",
+    "evidence_urls": [
+      "https://waterfall.io/"
+    ],
+    "confidence": "medium",
+    "verification_method": "agent pass",
+    "evidence_file": "059_waterfall.io_evidence.json"
+  },
+  {
+    "id": 60,
+    "app": "Clay",
+    "category": "Data / SEO",
+    "does": "Data enrichment / automation",
+    "auth_methods": [
+      "API key",
+      "OAuth integrations"
+    ],
+    "auth_raw": "API key / OAuth integrations",
+    "credential_access": "hybrid",
+    "api_type": "REST; moderate",
+    "mcp_available": false,
+    "mcp_raw": "No",
+    "buildability": "Buildable with caveat",
+    "blocker": "Workspace/plan/API availability",
+    "evidence_urls": [
+      "https://www.clay.com/"
+    ],
+    "confidence": "medium",
+    "verification_method": "agent pass",
+    "evidence_file": "060_clay_evidence.json"
+  },
+  {
+    "id": 61,
+    "app": "GitHub",
+    "category": "Developer / Infra",
+    "does": "Code hosting",
+    "auth_methods": [
+      "GitHub App tokens",
+      "OAuth",
+      "PAT"
+    ],
+    "auth_raw": "GitHub App tokens; OAuth; PAT",
+    "credential_access": "self-serve",
+    "api_type": "REST + GraphQL; very broad",
+    "mcp_available": true,
+    "mcp_raw": "Yes",
+    "buildability": "Buildable",
+    "blocker": "App permissions / installation",
+    "evidence_urls": [
+      "https://docs.github.com/en/rest/authentication"
+    ],
+    "confidence": "high",
+    "verification_method": "manual sample",
+    "evidence_file": "061_github_evidence.json"
+  },
+  {
+    "id": 62,
+    "app": "Vercel",
+    "category": "Developer / Infra",
+    "does": "Deployment platform",
+    "auth_methods": [
+      "Bearer token",
+      "OAuth2"
+    ],
+    "auth_raw": "Bearer token; OAuth2",
+    "credential_access": "self-serve",
+    "api_type": "REST; broad",
+    "mcp_available": true,
+    "mcp_raw": "Yes",
+    "buildability": "Buildable",
+    "blocker": "Team/org scopes",
+    "evidence_urls": [
+      "https://vercel.com/docs/rest-api"
+    ],
+    "confidence": "medium",
+    "verification_method": "agent pass",
+    "evidence_file": "062_vercel_evidence.json"
+  },
+  {
+    "id": 63,
+    "app": "Netlify",
+    "category": "Developer / Infra",
+    "does": "Deployment platform",
+    "auth_methods": [
+      "Personal access token",
+      "OAuth2"
+    ],
+    "auth_raw": "Personal access token; OAuth2",
+    "credential_access": "self-serve",
+    "api_type": "REST; broad",
+    "mcp_available": false,
+    "mcp_raw": "No",
+    "buildability": "Buildable",
+    "blocker": "Token or OAuth app",
+    "evidence_urls": [
+      "https://docs.netlify.com/api/"
+    ],
+    "confidence": "medium",
+    "verification_method": "agent pass",
+    "evidence_file": "063_netlify_evidence.json"
+  },
+  {
+    "id": 64,
+    "app": "Cloudflare",
+    "category": "Developer / Infra",
+    "does": "Edge / infrastructure",
+    "auth_methods": [
+      "API token",
+      "API key",
+      "OAuth2"
+    ],
+    "auth_raw": "API token; API key; OAuth2",
+    "credential_access": "self-serve",
+    "api_type": "REST; very broad",
+    "mcp_available": true,
+    "mcp_raw": "Yes",
+    "buildability": "Buildable",
+    "blocker": "Zone/account scopes",
+    "evidence_urls": [
+      "https://developers.cloudflare.com/api/"
+    ],
+    "confidence": "medium",
+    "verification_method": "agent pass",
+    "evidence_file": "064_cloudflare_evidence.json"
+  },
+  {
+    "id": 65,
+    "app": "Supabase",
+    "category": "Developer / Infra",
+    "does": "Database/backend platform",
+    "auth_methods": [
+      "API key",
+      "OAuth2"
+    ],
+    "auth_raw": "API key; OAuth2",
+    "credential_access": "self-serve",
+    "api_type": "REST; broad + PostgREST",
+    "mcp_available": true,
+    "mcp_raw": "Yes",
+    "buildability": "Buildable",
+    "blocker": "Project keys / OAuth",
+    "evidence_urls": [
+      "https://supabase.com/docs"
+    ],
+    "confidence": "medium",
+    "verification_method": "agent pass",
+    "evidence_file": "065_supabase_evidence.json"
+  },
+  {
+    "id": 66,
+    "app": "Neo4j",
+    "category": "Developer / Infra",
+    "does": "Graph database",
+    "auth_methods": [
+      "Bearer token",
+      "basic"
+    ],
+    "auth_raw": "Bearer token / basic",
+    "credential_access": "self-serve",
+    "api_type": "Cypher/HTTP; broad",
+    "mcp_available": false,
+    "mcp_raw": "No",
+    "buildability": "Buildable",
+    "blocker": "Database credentials",
+    "evidence_urls": [
+      "https://neo4j.com/docs/api/"
+    ],
+    "confidence": "medium",
+    "verification_method": "agent pass",
+    "evidence_file": "066_neo4j_evidence.json"
+  },
+  {
+    "id": 67,
+    "app": "Snowflake",
+    "category": "Developer / Infra",
+    "does": "Cloud data warehouse",
+    "auth_methods": [
+      "OAuth2",
+      "key pair",
+      "password"
+    ],
+    "auth_raw": "OAuth2; key pair; password",
+    "credential_access": "hybrid",
+    "api_type": "SQL/REST; broad",
+    "mcp_available": false,
+    "mcp_raw": "No",
+    "buildability": "Buildable with setup",
+    "blocker": "Account security/admin",
+    "evidence_urls": [
+      "https://docs.snowflake.com/en/developer-guide/sql-api/index"
+    ],
+    "confidence": "medium",
+    "verification_method": "agent pass",
+    "evidence_file": "067_snowflake_evidence.json"
+  },
+  {
+    "id": 68,
+    "app": "MongoDB Atlas",
+    "category": "Developer / Infra",
+    "does": "Database platform",
+    "auth_methods": [
+      "API key",
+      "secret",
+      "OAuth2"
+    ],
+    "auth_raw": "API key/secret; OAuth2",
+    "credential_access": "self-serve",
+    "api_type": "REST; broad",
+    "mcp_available": true,
+    "mcp_raw": "Yes",
+    "buildability": "Buildable",
+    "blocker": "Project API keys",
+    "evidence_urls": [
+      "https://www.mongodb.com/docs/atlas/api/"
+    ],
+    "confidence": "medium",
+    "verification_method": "agent pass",
+    "evidence_file": "068_mongodb_atlas_evidence.json"
+  },
+  {
+    "id": 69,
+    "app": "Datadog",
+    "category": "Developer / Infra",
+    "does": "Observability",
+    "auth_methods": [
+      "API key + app key",
+      "OAuth2"
+    ],
+    "auth_raw": "API key + app key; OAuth2",
+    "credential_access": "self-serve",
+    "api_type": "REST; very broad",
+    "mcp_available": false,
+    "mcp_raw": "No",
+    "buildability": "Buildable",
+    "blocker": "Org keys",
+    "evidence_urls": [
+      "https://docs.datadoghq.com/api/latest/"
+    ],
+    "confidence": "medium",
+    "verification_method": "agent pass",
+    "evidence_file": "069_datadog_evidence.json"
+  },
+  {
+    "id": 70,
+    "app": "Sentry",
+    "category": "Developer / Infra",
+    "does": "Error monitoring",
+    "auth_methods": [
+      "Auth token",
+      "OAuth2"
+    ],
+    "auth_raw": "Auth token; OAuth2",
+    "credential_access": "self-serve",
+    "api_type": "REST; broad",
+    "mcp_available": true,
+    "mcp_raw": "Yes",
+    "buildability": "Buildable",
+    "blocker": "Token scopes",
+    "evidence_urls": [
+      "https://docs.sentry.io/api/"
+    ],
+    "confidence": "medium",
+    "verification_method": "agent pass",
+    "evidence_file": "070_sentry_evidence.json"
+  },
+  {
+    "id": 71,
+    "app": "Notion",
+    "category": "Productivity",
+    "does": "Docs/wiki/workspace",
+    "auth_methods": [
+      "OAuth2",
+      "integration token"
+    ],
+    "auth_raw": "OAuth2; integration token",
+    "credential_access": "self-serve",
+    "api_type": "REST; broad",
+    "mcp_available": true,
+    "mcp_raw": "Yes",
+    "buildability": "Buildable",
+    "blocker": "Workspace connection",
+    "evidence_urls": [
+      "https://developers.notion.com/guides/get-started/authorization"
+    ],
+    "confidence": "high",
+    "verification_method": "manual sample",
+    "evidence_file": "071_notion_evidence.json"
+  },
+  {
+    "id": 72,
+    "app": "Airtable",
+    "category": "Productivity",
+    "does": "Database/spreadsheet",
+    "auth_methods": [
+      "Personal access token",
+      "OAuth2"
+    ],
+    "auth_raw": "Personal access token; OAuth2",
+    "credential_access": "self-serve",
+    "api_type": "REST; broad",
+    "mcp_available": false,
+    "mcp_raw": "No",
+    "buildability": "Buildable",
+    "blocker": "PAT/OAuth scopes",
+    "evidence_urls": [
+      "https://airtable.com/developers/web/api/introduction"
+    ],
+    "confidence": "medium",
+    "verification_method": "agent pass",
+    "evidence_file": "072_airtable_evidence.json"
+  },
+  {
+    "id": 73,
+    "app": "Linear",
+    "category": "Productivity",
+    "does": "Issue/project management",
+    "auth_methods": [
+      "API key",
+      "OAuth2"
+    ],
+    "auth_raw": "API key; OAuth2",
+    "credential_access": "self-serve",
+    "api_type": "GraphQL; broad",
+    "mcp_available": true,
+    "mcp_raw": "Yes",
+    "buildability": "Buildable",
+    "blocker": "OAuth for multi-user apps",
+    "evidence_urls": [
+      "https://linear.app/developers/graphql"
+    ],
+    "confidence": "high",
+    "verification_method": "manual sample",
+    "evidence_file": "073_linear_evidence.json"
+  },
+  {
+    "id": 74,
+    "app": "Jira",
+    "category": "Productivity",
+    "does": "Issue/project management",
+    "auth_methods": [
+      "OAuth2",
+      "API token"
+    ],
+    "auth_raw": "OAuth2; API token",
+    "credential_access": "hybrid",
+    "api_type": "REST; very broad",
+    "mcp_available": false,
+    "mcp_raw": "No",
+    "buildability": "Buildable",
+    "blocker": "Atlassian app + admin consent",
+    "evidence_urls": [
+      "https://developer.atlassian.com/cloud/jira/platform/rest/v3/"
+    ],
+    "confidence": "medium",
+    "verification_method": "agent pass",
+    "evidence_file": "074_jira_evidence.json"
+  },
+  {
+    "id": 75,
+    "app": "Asana",
+    "category": "Productivity",
+    "does": "Project management",
+    "auth_methods": [
+      "OAuth2",
+      "PAT"
+    ],
+    "auth_raw": "OAuth2; PAT",
+    "credential_access": "self-serve",
+    "api_type": "REST; broad",
+    "mcp_available": false,
+    "mcp_raw": "No",
+    "buildability": "Buildable",
+    "blocker": "Developer app",
+    "evidence_urls": [
+      "https://developers.asana.com/docs/using-asana"
+    ],
+    "confidence": "medium",
+    "verification_method": "agent pass",
+    "evidence_file": "075_asana_evidence.json"
+  },
+  {
+    "id": 76,
+    "app": "Monday.com",
+    "category": "Productivity",
+    "does": "Work management",
+    "auth_methods": [
+      "OAuth2",
+      "API token"
+    ],
+    "auth_raw": "OAuth2; API token",
+    "credential_access": "self-serve",
+    "api_type": "GraphQL; broad",
+    "mcp_available": false,
+    "mcp_raw": "No",
+    "buildability": "Buildable",
+    "blocker": "App/token",
+    "evidence_urls": [
+      "https://developer.monday.com/api-reference/docs/authentication"
+    ],
+    "confidence": "medium",
+    "verification_method": "agent pass",
+    "evidence_file": "076_monday.com_evidence.json"
+  },
+  {
+    "id": 77,
+    "app": "ClickUp",
+    "category": "Productivity",
+    "does": "Project management",
+    "auth_methods": [
+      "OAuth2",
+      "API token"
+    ],
+    "auth_raw": "OAuth2; API token",
+    "credential_access": "self-serve",
+    "api_type": "REST; broad",
+    "mcp_available": false,
+    "mcp_raw": "No",
+    "buildability": "Buildable",
+    "blocker": "OAuth app",
+    "evidence_urls": [
+      "https://developer.clickup.com/docs/authentication"
+    ],
+    "confidence": "medium",
+    "verification_method": "agent pass",
+    "evidence_file": "077_clickup_evidence.json"
+  },
+  {
+    "id": 78,
+    "app": "Coda",
+    "category": "Productivity",
+    "does": "Docs/work management",
+    "auth_methods": [
+      "API token",
+      "OAuth2"
+    ],
+    "auth_raw": "API token; OAuth2",
+    "credential_access": "self-serve",
+    "api_type": "REST; moderate",
+    "mcp_available": false,
+    "mcp_raw": "No",
+    "buildability": "Buildable",
+    "blocker": "Developer token/OAuth",
+    "evidence_urls": [
+      "https://coda.io/developers/apis/v1"
+    ],
+    "confidence": "medium",
+    "verification_method": "agent pass",
+    "evidence_file": "078_coda_evidence.json"
+  },
+  {
+    "id": 79,
+    "app": "Smartsheet",
+    "category": "Productivity",
+    "does": "Work management",
+    "auth_methods": [
+      "OAuth2",
+      "API token"
+    ],
+    "auth_raw": "OAuth2; API token",
+    "credential_access": "self-serve",
+    "api_type": "REST; broad",
+    "mcp_available": false,
+    "mcp_raw": "No",
+    "buildability": "Buildable",
+    "blocker": "Developer app",
+    "evidence_urls": [
+      "https://smartsheet.redoc.ly/"
+    ],
+    "confidence": "medium",
+    "verification_method": "agent pass",
+    "evidence_file": "079_smartsheet_evidence.json"
+  },
+  {
+    "id": 80,
+    "app": "Harvest",
+    "category": "Productivity",
+    "does": "Time tracking",
+    "auth_methods": [
+      "OAuth2",
+      "access token"
+    ],
+    "auth_raw": "OAuth2; access token",
+    "credential_access": "self-serve",
+    "api_type": "REST; moderate",
+    "mcp_available": false,
+    "mcp_raw": "No",
+    "buildability": "Buildable",
+    "blocker": "OAuth app",
+    "evidence_urls": [
+      "https://help.getharvest.com/api-v2/authentication-api/authentication/authentication/"
+    ],
+    "confidence": "medium",
+    "verification_method": "agent pass",
+    "evidence_file": "080_harvest_evidence.json"
+  },
+  {
+    "id": 81,
+    "app": "Stripe",
+    "category": "Finance",
+    "does": "Payments",
+    "auth_methods": [
+      "API key",
+      "OAuth2 Connect"
+    ],
+    "auth_raw": "API key; OAuth2 Connect",
+    "credential_access": "self-serve",
+    "api_type": "REST; very broad",
+    "mcp_available": true,
+    "mcp_raw": "Yes",
+    "buildability": "Buildable",
+    "blocker": "Connect onboarding for platform apps",
+    "evidence_urls": [
+      "https://docs.stripe.com/api/authentication"
+    ],
+    "confidence": "high",
+    "verification_method": "manual sample",
+    "evidence_file": "081_stripe_evidence.json"
+  },
+  {
+    "id": 82,
+    "app": "Plaid",
+    "category": "Finance",
+    "does": "Financial data",
+    "auth_methods": [
+      "API keys",
+      "OAuth-style Link"
+    ],
+    "auth_raw": "API keys; OAuth-style Link",
+    "credential_access": "hybrid",
+    "api_type": "REST; broad",
+    "mcp_available": false,
+    "mcp_raw": "No",
+    "buildability": "Buildable with onboarding",
+    "blocker": "Production access / institution products",
+    "evidence_urls": [
+      "https://plaid.com/docs/api/"
+    ],
+    "confidence": "medium",
+    "verification_method": "agent pass",
+    "evidence_file": "082_plaid_evidence.json"
+  },
+  {
+    "id": 83,
+    "app": "Binance",
+    "category": "Finance",
+    "does": "Crypto exchange",
+    "auth_methods": [
+      "API key + secret"
+    ],
+    "auth_raw": "API key + secret",
+    "credential_access": "self-serve",
+    "api_type": "REST + WebSocket; broad",
+    "mcp_available": false,
+    "mcp_raw": "No",
+    "buildability": "Buildable",
+    "blocker": "Account/API key",
+    "evidence_urls": [
+      "https://developers.binance.com/docs/binance-spot-api-docs/rest-api"
+    ],
+    "confidence": "medium",
+    "verification_method": "agent pass",
+    "evidence_file": "083_binance_evidence.json"
+  },
+  {
+    "id": 84,
+    "app": "Paygent Connect",
+    "category": "Finance",
+    "does": "Payments",
+    "auth_methods": [
+      "API key",
+      "token"
+    ],
+    "auth_raw": "API key / token",
+    "credential_access": "gated",
+    "api_type": "REST; limited",
+    "mcp_available": false,
+    "mcp_raw": "No",
+    "buildability": "Outreach required",
+    "blocker": "Processor/partner access",
+    "evidence_urls": [
+      "https://paygent.co.jp/"
+    ],
+    "confidence": "medium",
+    "verification_method": "agent pass",
+    "evidence_file": "084_paygent_connect_evidence.json"
+  },
+  {
+    "id": 85,
+    "app": "iPayX",
+    "category": "Finance",
+    "does": "Payments",
+    "auth_methods": [
+      "API key",
+      "token"
+    ],
+    "auth_raw": "API key / token",
+    "credential_access": "gated",
+    "api_type": "REST; limited",
+    "mcp_available": false,
+    "mcp_raw": "No",
+    "buildability": "Outreach required",
+    "blocker": "Commercial access",
+    "evidence_urls": [
+      "https://ipayx.ai/docs"
+    ],
+    "confidence": "medium",
+    "verification_method": "agent pass",
+    "evidence_file": "085_ipayx_evidence.json"
+  },
+  {
+    "id": 86,
+    "app": "QuickBooks",
+    "category": "Finance",
+    "does": "Accounting",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "auth_raw": "OAuth2",
+    "credential_access": "self-serve",
+    "api_type": "REST; broad",
+    "mcp_available": false,
+    "mcp_raw": "No",
+    "buildability": "Buildable",
+    "blocker": "Intuit developer app",
+    "evidence_urls": [
+      "https://developer.intuit.com/app/developer/qbo/docs/get-started"
+    ],
+    "confidence": "medium",
+    "verification_method": "agent pass",
+    "evidence_file": "086_quickbooks_evidence.json"
+  },
+  {
+    "id": 87,
+    "app": "Xero",
+    "category": "Finance",
+    "does": "Accounting",
+    "auth_methods": [
+      "OAuth2",
+      "PKCE"
+    ],
+    "auth_raw": "OAuth2; PKCE",
+    "credential_access": "self-serve",
+    "api_type": "REST; broad",
+    "mcp_available": false,
+    "mcp_raw": "No",
+    "buildability": "Buildable",
+    "blocker": "App registration",
+    "evidence_urls": [
+      "https://developer.xero.com/documentation/guides/oauth2/overview/"
+    ],
+    "confidence": "medium",
+    "verification_method": "agent pass",
+    "evidence_file": "087_xero_evidence.json"
+  },
+  {
+    "id": 88,
+    "app": "Brex",
+    "category": "Finance",
+    "does": "Corporate finance",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "auth_raw": "OAuth2",
+    "credential_access": "gated",
+    "api_type": "REST; broad",
+    "mcp_available": false,
+    "mcp_raw": "No",
+    "buildability": "Outreach / customer access",
+    "blocker": "Developer access depends on Brex customer/org",
+    "evidence_urls": [
+      "https://developer.brex.com/"
+    ],
+    "confidence": "medium",
+    "verification_method": "agent pass",
+    "evidence_file": "088_brex_evidence.json"
+  },
+  {
+    "id": 89,
+    "app": "Ramp",
+    "category": "Finance",
+    "does": "Corporate finance",
+    "auth_methods": [
+      "OAuth2",
+      "API credentials"
+    ],
+    "auth_raw": "OAuth2; API credentials",
+    "credential_access": "gated",
+    "api_type": "REST; broad",
+    "mcp_available": false,
+    "mcp_raw": "No",
+    "buildability": "Outreach / customer access",
+    "blocker": "API access requires customer relationship",
+    "evidence_urls": [
+      "https://docs.ramp.com/"
+    ],
+    "confidence": "medium",
+    "verification_method": "agent pass",
+    "evidence_file": "089_ramp_evidence.json"
+  },
+  {
+    "id": 90,
+    "app": "PitchBook",
+    "category": "Finance",
+    "does": "Financial research",
+    "auth_methods": [
+      "API credentials"
+    ],
+    "auth_raw": "API credentials",
+    "credential_access": "gated",
+    "api_type": "Enterprise API",
+    "mcp_available": false,
+    "mcp_raw": "No",
+    "buildability": "Outreach required",
+    "blocker": "Research API is commercial/enterprise",
+    "evidence_urls": [
+      "https://pitchbook.com/"
+    ],
+    "confidence": "medium",
+    "verification_method": "agent pass",
+    "evidence_file": "090_pitchbook_evidence.json"
+  },
+  {
+    "id": 91,
+    "app": "NotebookLM",
+    "category": "AI / Research",
+    "does": "AI research/notebook",
+    "auth_methods": [
+      "Google auth",
+      "enterprise APIs"
+    ],
+    "auth_raw": "Google auth / enterprise APIs",
+    "credential_access": "gated",
+    "api_type": "Limited/public API surface",
+    "mcp_available": false,
+    "mcp_raw": "No",
+    "buildability": "Not a normal public toolkit target",
+    "blocker": "Enterprise/API availability constraint",
+    "evidence_urls": [
+      "https://cloud.google.com/gemini"
+    ],
+    "confidence": "medium",
+    "verification_method": "agent pass",
+    "evidence_file": "091_notebooklm_evidence.json"
+  },
+  {
+    "id": 92,
+    "app": "Otter AI",
+    "category": "AI / Research",
+    "does": "Meeting transcription",
+    "auth_methods": [
+      "OAuth2",
+      "API"
+    ],
+    "auth_raw": "OAuth2 / API",
+    "credential_access": "gated",
+    "api_type": "API/MCP; moderate",
+    "mcp_available": true,
+    "mcp_raw": "Yes",
+    "buildability": "Outreach / workspace access",
+    "blocker": "API access tied to plan/partnership",
+    "evidence_urls": [
+      "https://help.otter.ai/"
+    ],
+    "confidence": "medium",
+    "verification_method": "agent pass",
+    "evidence_file": "092_otter_ai_evidence.json"
+  },
+  {
+    "id": 93,
+    "app": "Fathom",
+    "category": "AI / Research",
+    "does": "Meeting notes/transcription",
+    "auth_methods": [
+      "OAuth2",
+      "API"
+    ],
+    "auth_raw": "OAuth2 / API",
+    "credential_access": "hybrid",
+    "api_type": "REST; moderate",
+    "mcp_available": false,
+    "mcp_raw": "No",
+    "buildability": "Buildable with access",
+    "blocker": "API availability / plan",
+    "evidence_urls": [
+      "https://fathom.video/"
+    ],
+    "confidence": "medium",
+    "verification_method": "agent pass",
+    "evidence_file": "093_fathom_evidence.json"
+  },
+  {
+    "id": 94,
+    "app": "Consensus",
+    "category": "AI / Research",
+    "does": "Research search",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "auth_raw": "OAuth2",
+    "credential_access": "hybrid",
+    "api_type": "REST; moderate",
+    "mcp_available": false,
+    "mcp_raw": "No",
+    "buildability": "Buildable with caveat",
+    "blocker": "OAuth requested; access may be controlled",
+    "evidence_urls": [
+      "https://consensus.app/"
+    ],
+    "confidence": "medium",
+    "verification_method": "agent pass",
+    "evidence_file": "094_consensus_evidence.json"
+  },
+  {
+    "id": 95,
+    "app": "Reducto",
+    "category": "AI / Research",
+    "does": "Document parsing",
+    "auth_methods": [
+      "API key"
+    ],
+    "auth_raw": "API key",
+    "credential_access": "self-serve",
+    "api_type": "REST; moderate",
+    "mcp_available": false,
+    "mcp_raw": "No",
+    "buildability": "Buildable",
+    "blocker": "API key",
+    "evidence_urls": [
+      "https://reducto.ai/"
+    ],
+    "confidence": "medium",
+    "verification_method": "agent pass",
+    "evidence_file": "095_reducto_evidence.json"
+  },
+  {
+    "id": 96,
+    "app": "Devin",
+    "category": "AI / Research",
+    "does": "AI coding agent",
+    "auth_methods": [
+      "API",
+      "MCP"
+    ],
+    "auth_raw": "API / MCP",
+    "credential_access": "gated",
+    "api_type": "MCP/API; moderate",
+    "mcp_available": true,
+    "mcp_raw": "Yes",
+    "buildability": "Outreach / access",
+    "blocker": "MCP/API access is product-gated",
+    "evidence_urls": [
+      "https://docs.devin.ai/"
+    ],
+    "confidence": "medium",
+    "verification_method": "agent pass",
+    "evidence_file": "096_devin_evidence.json"
+  },
+  {
+    "id": 97,
+    "app": "higgsfield",
+    "category": "AI / Research",
+    "does": "AI content generation",
+    "auth_methods": [
+      "API",
+      "CLI token"
+    ],
+    "auth_raw": "API / CLI token",
+    "credential_access": "hybrid",
+    "api_type": "CLI/API; moderate",
+    "mcp_available": false,
+    "mcp_raw": "No",
+    "buildability": "Buildable with caveat",
+    "blocker": "API access / product availability",
+    "evidence_urls": [
+      "https://higgsfield.ai/cli"
+    ],
+    "confidence": "medium",
+    "verification_method": "agent pass",
+    "evidence_file": "097_higgsfield_evidence.json"
+  },
+  {
+    "id": 98,
+    "app": "Mermaid CLI",
+    "category": "AI / Research",
+    "does": "Diagram CLI",
+    "auth_methods": [
+      "None",
+      "local"
+    ],
+    "auth_raw": "None / local",
+    "credential_access": "self-serve",
+    "api_type": "CLI; no hosted API",
+    "mcp_available": false,
+    "mcp_raw": "No",
+    "buildability": "Buildable as tool",
+    "blocker": "No auth; local execution",
+    "evidence_urls": [
+      "https://github.com/mermaid-js/mermaid-cli"
+    ],
+    "confidence": "medium",
+    "verification_method": "agent pass",
+    "evidence_file": "098_mermaid_cli_evidence.json"
+  },
+  {
+    "id": 99,
+    "app": "YouTube Transcript",
+    "category": "AI / Research",
+    "does": "Transcript API",
+    "auth_methods": [
+      "API key"
+    ],
+    "auth_raw": "API key",
+    "credential_access": "self-serve",
+    "api_type": "REST; narrow",
+    "mcp_available": false,
+    "mcp_raw": "No",
+    "buildability": "Buildable",
+    "blocker": "API key / service account",
+    "evidence_urls": [
+      "https://transcriptapi.com/"
+    ],
+    "confidence": "medium",
+    "verification_method": "agent pass",
+    "evidence_file": "099_youtube_transcript_evidence.json"
+  },
+  {
+    "id": 100,
+    "app": "Grain",
+    "category": "AI / Research",
+    "does": "Meeting notes",
+    "auth_methods": [
+      "OAuth2",
+      "API"
+    ],
+    "auth_raw": "OAuth2 / API",
+    "credential_access": "hybrid",
+    "api_type": "REST; moderate",
+    "mcp_available": false,
+    "mcp_raw": "No",
+    "buildability": "Buildable with access",
+    "blocker": "API availability / plan",
+    "evidence_urls": [
+      "https://grain.com/"
+    ],
+    "confidence": "medium",
+    "verification_method": "agent pass",
+    "evidence_file": "100_grain_evidence.json"
+  }
+]

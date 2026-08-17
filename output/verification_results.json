@@ -1,0 +1,812 @@
+{
+  "metadata": {
+    "verified_at": "2026-08-17T17:23:18.275890",
+    "total_apps": 100,
+    "passed_checks": 100,
+    "failed_checks": 0,
+    "integrity_score_pct": 100.0,
+    "status": "PASSED"
+  },
+  "verifications": [
+    {
+      "id": 1,
+      "app": "Salesforce",
+      "category": "CRM & Sales",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:17.175875"
+    },
+    {
+      "id": 2,
+      "app": "HubSpot",
+      "category": "CRM & Sales",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:17.191499"
+    },
+    {
+      "id": 3,
+      "app": "Pipedrive",
+      "category": "CRM & Sales",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:17.207126"
+    },
+    {
+      "id": 4,
+      "app": "Attio",
+      "category": "CRM & Sales",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:17.219646"
+    },
+    {
+      "id": 5,
+      "app": "Twenty",
+      "category": "CRM & Sales",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:17.223155"
+    },
+    {
+      "id": 6,
+      "app": "Podio",
+      "category": "CRM & Sales",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:17.238795"
+    },
+    {
+      "id": 7,
+      "app": "Zoho CRM",
+      "category": "CRM & Sales",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:17.238795"
+    },
+    {
+      "id": 8,
+      "app": "Close",
+      "category": "CRM & Sales",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:17.254417"
+    },
+    {
+      "id": 9,
+      "app": "Copper",
+      "category": "CRM & Sales",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:17.276932"
+    },
+    {
+      "id": 10,
+      "app": "DealCloud",
+      "category": "CRM & Sales",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:17.276932"
+    },
+    {
+      "id": 11,
+      "app": "Zendesk",
+      "category": "Support & Helpdesk",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:17.292599"
+    },
+    {
+      "id": 12,
+      "app": "Intercom",
+      "category": "Support & Helpdesk",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:17.310221"
+    },
+    {
+      "id": 13,
+      "app": "Freshdesk",
+      "category": "Support & Helpdesk",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:17.319763"
+    },
+    {
+      "id": 14,
+      "app": "Front",
+      "category": "Support & Helpdesk",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:17.326273"
+    },
+    {
+      "id": 15,
+      "app": "Pylon",
+      "category": "Support & Helpdesk",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:17.341909"
+    },
+    {
+      "id": 16,
+      "app": "LiveAgent",
+      "category": "Support & Helpdesk",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:17.341909"
+    },
+    {
+      "id": 17,
+      "app": "Plain",
+      "category": "Support & Helpdesk",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:17.341909"
+    },
+    {
+      "id": 18,
+      "app": "Help Scout",
+      "category": "Support & Helpdesk",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:17.357570"
+    },
+    {
+      "id": 19,
+      "app": "Gorgias",
+      "category": "Support & Helpdesk",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:17.373160"
+    },
+    {
+      "id": 20,
+      "app": "Gladly",
+      "category": "Support & Helpdesk",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:17.388784"
+    },
+    {
+      "id": 21,
+      "app": "Slack",
+      "category": "Communications",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:17.388784"
+    },
+    {
+      "id": 22,
+      "app": "Twilio",
+      "category": "Communications",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:17.417194"
+    },
+    {
+      "id": 23,
+      "app": "Zoho Cliq",
+      "category": "Communications",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:17.422436"
+    },
+    {
+      "id": 24,
+      "app": "Lark",
+      "category": "Communications",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:17.422436"
+    },
+    {
+      "id": 25,
+      "app": "Pumble",
+      "category": "Communications",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:17.451616"
+    },
+    {
+      "id": 26,
+      "app": "Discord",
+      "category": "Communications",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:17.451616"
+    },
+    {
+      "id": 27,
+      "app": "Telegram",
+      "category": "Communications",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:17.467224"
+    },
+    {
+      "id": 28,
+      "app": "WhatsApp Business",
+      "category": "Communications",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:17.482898"
+    },
+    {
+      "id": 29,
+      "app": "Aircall",
+      "category": "Communications",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:17.482898"
+    },
+    {
+      "id": 30,
+      "app": "Vonage",
+      "category": "Communications",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:17.498502"
+    },
+    {
+      "id": 31,
+      "app": "Google Ads",
+      "category": "Marketing",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:17.520152"
+    },
+    {
+      "id": 32,
+      "app": "Meta Ads",
+      "category": "Marketing",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:17.530161"
+    },
+    {
+      "id": 33,
+      "app": "LinkedIn Ads",
+      "category": "Marketing",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:17.545797"
+    },
+    {
+      "id": 34,
+      "app": "GoHighLevel",
+      "category": "Marketing",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:17.545797"
+    },
+    {
+      "id": 35,
+      "app": "Mailchimp",
+      "category": "Marketing",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:17.561421"
+    },
+    {
+      "id": 36,
+      "app": "Klaviyo",
+      "category": "Marketing",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:17.577049"
+    },
+    {
+      "id": 37,
+      "app": "systeme.io",
+      "category": "Marketing",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:17.592673"
+    },
+    {
+      "id": 38,
+      "app": "Pinterest",
+      "category": "Marketing",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:17.592673"
+    },
+    {
+      "id": 39,
+      "app": "Threads",
+      "category": "Marketing",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:17.608298"
+    },
+    {
+      "id": 40,
+      "app": "SendGrid",
+      "category": "Marketing",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:17.624313"
+    },
+    {
+      "id": 41,
+      "app": "Shopify",
+      "category": "Ecommerce",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:17.624313"
+    },
+    {
+      "id": 42,
+      "app": "WooCommerce",
+      "category": "Ecommerce",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:17.642027"
+    },
+    {
+      "id": 43,
+      "app": "BigCommerce",
+      "category": "Ecommerce",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:17.656073"
+    },
+    {
+      "id": 44,
+      "app": "Salesforce Commerce Cloud",
+      "category": "Ecommerce",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:17.671711"
+    },
+    {
+      "id": 45,
+      "app": "Magento / Adobe Commerce",
+      "category": "Ecommerce",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:17.687333"
+    },
+    {
+      "id": 46,
+      "app": "Squarespace",
+      "category": "Ecommerce",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:17.687333"
+    },
+    {
+      "id": 47,
+      "app": "Ecwid",
+      "category": "Ecommerce",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:17.703011"
+    },
+    {
+      "id": 48,
+      "app": "Gumroad",
+      "category": "Ecommerce",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:17.720595"
+    },
+    {
+      "id": 49,
+      "app": "Amazon Selling Partner",
+      "category": "Ecommerce",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:17.734627"
+    },
+    {
+      "id": 50,
+      "app": "fanbasis",
+      "category": "Ecommerce",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:17.750266"
+    },
+    {
+      "id": 51,
+      "app": "DataForSEO",
+      "category": "Data / SEO",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:17.750266"
+    },
+    {
+      "id": 52,
+      "app": "SE Ranking",
+      "category": "Data / SEO",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:17.765891"
+    },
+    {
+      "id": 53,
+      "app": "Ahrefs",
+      "category": "Data / SEO",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:17.781550"
+    },
+    {
+      "id": 54,
+      "app": "MrScraper",
+      "category": "Data / SEO",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:17.781550"
+    },
+    {
+      "id": 55,
+      "app": "Apify",
+      "category": "Data / SEO",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:17.797166"
+    },
+    {
+      "id": 56,
+      "app": "Firecrawl",
+      "category": "Data / SEO",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:17.797166"
+    },
+    {
+      "id": 57,
+      "app": "Bright Data",
+      "category": "Data / SEO",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:17.820837"
+    },
+    {
+      "id": 58,
+      "app": "Sherlock",
+      "category": "Data / SEO",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:17.828844"
+    },
+    {
+      "id": 59,
+      "app": "Waterfall.io",
+      "category": "Data / SEO",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:17.828844"
+    },
+    {
+      "id": 60,
+      "app": "Clay",
+      "category": "Data / SEO",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:17.844484"
+    },
+    {
+      "id": 61,
+      "app": "GitHub",
+      "category": "Developer / Infra",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:17.860120"
+    },
+    {
+      "id": 62,
+      "app": "Vercel",
+      "category": "Developer / Infra",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:17.860453"
+    },
+    {
+      "id": 63,
+      "app": "Netlify",
+      "category": "Developer / Infra",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:17.876124"
+    },
+    {
+      "id": 64,
+      "app": "Cloudflare",
+      "category": "Developer / Infra",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:17.876124"
+    },
+    {
+      "id": 65,
+      "app": "Supabase",
+      "category": "Developer / Infra",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:17.891744"
+    },
+    {
+      "id": 66,
+      "app": "Neo4j",
+      "category": "Developer / Infra",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:17.907376"
+    },
+    {
+      "id": 67,
+      "app": "Snowflake",
+      "category": "Developer / Infra",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:17.918884"
+    },
+    {
+      "id": 68,
+      "app": "MongoDB Atlas",
+      "category": "Developer / Infra",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:17.924073"
+    },
+    {
+      "id": 69,
+      "app": "Datadog",
+      "category": "Developer / Infra",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:17.939081"
+    },
+    {
+      "id": 70,
+      "app": "Sentry",
+      "category": "Developer / Infra",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:17.939081"
+    },
+    {
+      "id": 71,
+      "app": "Notion",
+      "category": "Productivity",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:17.954716"
+    },
+    {
+      "id": 72,
+      "app": "Airtable",
+      "category": "Productivity",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:17.970341"
+    },
+    {
+      "id": 73,
+      "app": "Linear",
+      "category": "Productivity",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:17.976877"
+    },
+    {
+      "id": 74,
+      "app": "Jira",
+      "category": "Productivity",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:17.992579"
+    },
+    {
+      "id": 75,
+      "app": "Asana",
+      "category": "Productivity",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:18.008173"
+    },
+    {
+      "id": 76,
+      "app": "Monday.com",
+      "category": "Productivity",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:18.021216"
+    },
+    {
+      "id": 77,
+      "app": "ClickUp",
+      "category": "Productivity",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:18.024253"
+    },
+    {
+      "id": 78,
+      "app": "Coda",
+      "category": "Productivity",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:18.039921"
+    },
+    {
+      "id": 79,
+      "app": "Smartsheet",
+      "category": "Productivity",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:18.039921"
+    },
+    {
+      "id": 80,
+      "app": "Harvest",
+      "category": "Productivity",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:18.055554"
+    },
+    {
+      "id": 81,
+      "app": "Stripe",
+      "category": "Finance",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:18.071177"
+    },
+    {
+      "id": 82,
+      "app": "Plaid",
+      "category": "Finance",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:18.071177"
+    },
+    {
+      "id": 83,
+      "app": "Binance",
+      "category": "Finance",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:18.086794"
+    },
+    {
+      "id": 84,
+      "app": "Paygent Connect",
+      "category": "Finance",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:18.103423"
+    },
+    {
+      "id": 85,
+      "app": "iPayX",
+      "category": "Finance",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:18.103423"
+    },
+    {
+      "id": 86,
+      "app": "QuickBooks",
+      "category": "Finance",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:18.121502"
+    },
+    {
+      "id": 87,
+      "app": "Xero",
+      "category": "Finance",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:18.135016"
+    },
+    {
+      "id": 88,
+      "app": "Brex",
+      "category": "Finance",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:18.150689"
+    },
+    {
+      "id": 89,
+      "app": "Ramp",
+      "category": "Finance",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:18.150689"
+    },
+    {
+      "id": 90,
+      "app": "PitchBook",
+      "category": "Finance",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:18.166279"
+    },
+    {
+      "id": 91,
+      "app": "NotebookLM",
+      "category": "AI / Research",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:18.181903"
+    },
+    {
+      "id": 92,
+      "app": "Otter AI",
+      "category": "AI / Research",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:18.197562"
+    },
+    {
+      "id": 93,
+      "app": "Fathom",
+      "category": "AI / Research",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:18.197562"
+    },
+    {
+      "id": 94,
+      "app": "Consensus",
+      "category": "AI / Research",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:18.213153"
+    },
+    {
+      "id": 95,
+      "app": "Reducto",
+      "category": "AI / Research",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:18.229213"
+    },
+    {
+      "id": 96,
+      "app": "Devin",
+      "category": "AI / Research",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:18.229213"
+    },
+    {
+      "id": 97,
+      "app": "higgsfield",
+      "category": "AI / Research",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:18.244848"
+    },
+    {
+      "id": 98,
+      "app": "Mermaid CLI",
+      "category": "AI / Research",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:18.260255"
+    },
+    {
+      "id": 99,
+      "app": "YouTube Transcript",
+      "category": "AI / Research",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:18.275890"
+    },
+    {
+      "id": 100,
+      "app": "Grain",
+      "category": "AI / Research",
+      "verified": true,
+      "issues": [],
+      "verified_at": "2026-08-17T17:23:18.275890"
+    }
+  ]
+}

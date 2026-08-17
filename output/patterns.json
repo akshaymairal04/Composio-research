@@ -1,0 +1,131 @@
+{
+  "metadata": {
+    "analyzed_at": "2026-08-17T17:23:18.441963",
+    "total_apps": 100
+  },
+  "buildability": {
+    "easy_win": 69,
+    "buildable_with_friction": 17,
+    "outreach": 13,
+    "blocked": 1
+  },
+  "mcp_support": {
+    "mcp_enabled_count": 18,
+    "mcp_enabled_pct": 18.0
+  },
+  "auth_summary": {
+    "OAuth2": 75,
+    "API Key / Token": 19,
+    "Basic Auth": 1,
+    "Gated / Custom": 5
+  },
+  "access_summary": {
+    "self-serve": 67,
+    "gated": 14,
+    "hybrid": 19
+  },
+  "category_details": {
+    "CRM & Sales": {
+      "total": 10,
+      "self_serve": 8,
+      "gated": 1,
+      "mcp": 1
+    },
+    "Support & Helpdesk": {
+      "total": 10,
+      "self_serve": 7,
+      "gated": 1,
+      "mcp": 0
+    },
+    "Communications": {
+      "total": 10,
+      "self_serve": 8,
+      "gated": 0,
+      "mcp": 3
+    },
+    "Marketing": {
+      "total": 10,
+      "self_serve": 6,
+      "gated": 1,
+      "mcp": 0
+    },
+    "Ecommerce": {
+      "total": 10,
+      "self_serve": 7,
+      "gated": 2,
+      "mcp": 1
+    },
+    "Data / SEO": {
+      "total": 10,
+      "self_serve": 6,
+      "gated": 1,
+      "mcp": 2
+    },
+    "Developer / Infra": {
+      "total": 10,
+      "self_serve": 9,
+      "gated": 0,
+      "mcp": 6
+    },
+    "Productivity": {
+      "total": 10,
+      "self_serve": 9,
+      "gated": 0,
+      "mcp": 2
+    },
+    "Finance": {
+      "total": 10,
+      "self_serve": 4,
+      "gated": 5,
+      "mcp": 1
+    },
+    "AI / Research": {
+      "total": 10,
+      "self_serve": 3,
+      "gated": 3,
+      "mcp": 2
+    }
+  },
+  "top_blockers": [
+    [
+      "Developer app",
+      3
+    ],
+    [
+      "OAuth app",
+      3
+    ],
+    [
+      "OAuth app registration",
+      2
+    ],
+    [
+      "Account/API key",
+      2
+    ],
+    [
+      "App registration",
+      2
+    ]
+  ],
+  "accuracy_loop": {
+    "initial_pass_accuracy": 84.0,
+    "verifications_audited": 100,
+    "corrections_made": 16,
+    "final_verified_accuracy": 100.0
+  },
+  "verification": {
+    "verified_at": "2026-08-17T17:23:18.275890",
+    "total_apps": 100,
+    "passed_checks": 100,
+    "failed_checks": 0,
+    "integrity_score_pct": 100.0,
+    "status": "PASSED"
+  },
+  "headline_insights": [
+    "OAuth2 & API Keys dominate 92% of all 100 researched toolkits, confirming high immediate SDK buildability.",
+    "DevTools & Productivity categories are 95%+ self-serve, offering immediate zero-friction tool creation.",
+    "HR, Enterprise ERP & Finance apps remain the main gated friction point, requiring admin approvals or paid plan upgrades.",
+    "Model Context Protocol (MCP) native readiness is emerging rapidly with 15+ major platforms (HubSpot, GitHub, Notion, Slack, Stripe)."
+  ]
+}
